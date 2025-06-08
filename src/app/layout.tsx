@@ -1,49 +1,25 @@
 import type { Metadata } from "next";
-import { Montserrat, Crimson_Pro} from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+import ClientLayout from "./ClientLayout";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
-const crimson = Crimson_Pro({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Jack Chin",
   description: "Jack Chin's Portfolio",
   icons: {
     icon: [
-      {
-        url: '/favicon/favicon.ico',
-        sizes: '48x48',
-        type: 'image/x-icon',
-      },
-      {
-        url: '/favicon/favicon-16x16.png',
-        sizes: '16x16',
-        type: 'image/png',
-      },
-      {
-        url: '/favicon/favicon-32x32.png',
-        sizes: '32x32',
-        type: 'image/png',
-      }
+      { url: '/favicon/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
+      { url: '/favicon/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
     ],
     apple: [
-      {
-        url: '/favicon/apple-touch-icon.png',
-        sizes: '180x180',
-        type: 'image/png',
-      }
+      { url: '/favicon/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
     ],
     other: [
-      {
-        rel: 'android-chrome-192x192',
-        url: '/favicon/android-chrome-192x192.png',
-      },
-      {
-        rel: 'android-chrome-512x512',
-        url: '/favicon/android-chrome-512x512.png',
-      }
+      { rel: 'android-chrome-192x192', url: '/favicon/android-chrome-192x192.png' },
+      { rel: 'android-chrome-512x512', url: '/favicon/android-chrome-512x512.png' },
     ]
   }
 };
@@ -56,9 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.className} min-h-screen flex flex-col`}>
-        <Navbar />
-        {children}
-        <Footer />
+        <ClientLayout>{children}</ClientLayout>
       </body>
     </html>
   );

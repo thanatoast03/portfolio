@@ -36,7 +36,7 @@ export default function Navbar() {
   }, [isOpen]);
 
   return (
-    <nav className="bg-white text-[#516C65] text-2xl font-bold shadow-md drop-shadow-xl">
+    <nav className="bg-white text-[#516C65] text-2xl font-bold shadow-md drop-shadow-xl fixed w-full z-50">
       <div className="mx-auto px-6 sm:px-10 py-3 sm:py-4 flex justify-between items-center">
         <Link href="/">Jack Chin</Link>
 
@@ -62,7 +62,7 @@ export default function Navbar() {
       {isOpen && (
         <div 
           ref={mobileMenuRef}
-          className="md:hidden px-10 pb-4 flex flex-col gap-2"
+          className="md:hidden px-10 pb-4 flex flex-col gap-2 absolute w-full bg-white z-50"
         >
           <hr className="border-t-2 border-[#222421] w-full" />
           <Link className="flex self-end" href="/">Home</Link>
