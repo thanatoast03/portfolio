@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image";
 import { Crimson_Text } from "next/font/google";
 import resume from "../../public/arrow-up-from-bracket.svg"
@@ -14,17 +16,17 @@ export default function Home() {
           <h1 className={`text-4xl sm:text-7xl sm:pt-10 sm:mr-10 font-bold drop-shadow-lg ${crimson.className}`}>Hello world! My name is Jack Chin!</h1>
           <Image src="/jack-chin.jpg" alt="Jack Chin" width={818} height={545} className="rounded-3xl border-white border-4 sm:hidden" />
           <div className="flex flex-col gap-4 text-[#222421] description text-md sm:text-xl">
-            <p>Hello! My name is Jack Chin! I’m a recent Computer Science graduate from the <b>University at Buffalo</b> with Magna Cum Laude honors, and I specialize in full-stack development. I have interned at Xerox as a full-stack developer and the Monroe County Government as a cybersecurity researcher. I have also made a few websites as fan-projects.</p>
-            <p>I am always <b>learning</b> and <b>proactively</b> moving towards my goal of leaving a positive impact on people’s lives.</p>
+            <p>Hello! My name is Jack Chin! I'm a recent Computer Science graduate from the <b>University at Buffalo</b> with Magna Cum Laude honors, and I specialize in full-stack development. I have interned at Xerox as a full-stack developer and the Monroe County Government as a cybersecurity researcher. I have also made a few websites as fan-projects.</p>
+            <p>I am always <b>learning</b> and <b>proactively</b> moving towards my goal of leaving a positive impact on people's lives.</p>
             <p>Outside of computer science, I enjoy <b>mechanical keyboards</b>, <b>bass guitar</b>, <b>gaming</b>, <b>racing</b>, and <b>music</b>.</p>
           </div>
           <div className="buttons text-[#222421] flex flex-col sm:flex-row gap-4 sm:gap-10 sm:text-xl font-bold">
-            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 items-center drop-shadow-2xl hover:bg-[#FEF0EF]">
+            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 items-center drop-shadow-2xl hover:bg-[#FEF0EF]" onClick={() => window.open("https://docs.google.com/document/d/1FGjJ04eWc6Hjf-BcG6vhYl39Mr3ksuNm/edit?usp=sharing&ouid=100474169100505037999&rtpof=true&sd=true", "_blank")}>
               <Image src={resume} alt="Resume" width={30} height={30} className="w-6 h-6 sm:w-8 sm:h-8"/>
               <p>Download Resume</p>
             </button>
-            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 sm:gap-4 items-center drop-shadow-2xl hover:bg-[#FEF0EF]">
-              <Image src={contact} alt="Contact" width={30} height={30} className="w-6 h-6 sm:w-8 sm:h-8"/>
+            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 sm:gap-4 items-center drop-shadow-2xl hover:bg-[#FEF0EF]" onClick={() => window.open("mailto:jack.chin520@gmail.com", "_blank")}>
+              <Image src={contact} alt="Contact" width={30} height={30} className="w-6 h-6 sm:w-8 sm:h-8" />
               <p>Contact Me</p>
             </button>
           </div>

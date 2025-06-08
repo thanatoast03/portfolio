@@ -43,7 +43,7 @@ export default function Navbar() {
         <div className="hidden md:flex gap-x-12">
           <Link href="/">Home</Link>
           <Link href="/projects">Projects</Link>
-          <Link href="/contact">Contact Me</Link>
+          <a className="cursor-pointer" onClick={() => window.open("mailto:jack.chin520@gmail.com", "_blank")}>Contact Me</a>
         </div>
 
         <button
@@ -67,7 +67,7 @@ export default function Navbar() {
           <hr className="border-t-2 border-[#222421] w-full" />
           <Link className="flex self-end" href="/">Home</Link>
           <Link className="flex self-end" href="/about">About</Link>
-          <Link className="flex self-end" href="/contact">Contact</Link>
+          <a className="flex self-end cursor-pointer" onClick={() => window.open("mailto:jack.chin520@gmail.com", "_blank")}>Contact</a>
         </div>
       )}
     </nav>
