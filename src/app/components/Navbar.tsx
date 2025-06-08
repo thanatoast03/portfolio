@@ -62,7 +62,7 @@ export default function Navbar() {
       {isOpen && (
         <div 
           ref={mobileMenuRef}
-          className="md:hidden px-10 pb-4 flex flex-col gap-2 absolute w-full bg-white z-50"
+          className="md:hidden px-6 pb-4 flex flex-col gap-2 absolute w-full bg-white z-50 rounded-b-xl"
         >
           <hr className="border-t-2 border-[#222421] w-full" />
           <Link className="flex self-end" href="/">Home</Link>
