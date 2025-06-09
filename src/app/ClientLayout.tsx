@@ -5,40 +5,25 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
-  const [offsets, setOffsets] = useState({ top: 0, bottom: 0 });
+  const [navHeight, setNavHeight] = useState(0);
 
-  // Calculate heights whenever children change or window resizes
   useEffect(() => {
-    const updateOffsets = () => {
+    const updateNavHeight = () => {
       const navElement = document.querySelector('nav');
-      const footerElement = document.querySelector('footer');
-      
-      const navHeight = navElement?.offsetHeight ?? 0;
-      const footerHeight = footerElement?.offsetHeight ?? 0;
-      
-      setOffsets({ top: navHeight, bottom: footerHeight });
+      setNavHeight(navElement?.offsetHeight ?? 0);
     };
 
-    // Initial calculation
-    updateOffsets();
-
-    // Recalculate on resize
-    window.addEventListener('resize', updateOffsets);
-    
-    // Cleanup
-    return () => window.removeEventListener('resize', updateOffsets);
+    updateNavHeight();
+    window.addEventListener('resize', updateNavHeight);
+    return () => window.removeEventListener('resize', updateNavHeight);
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#E9C8B9]">
+    <div className="min-h-screen bg-[#E9C8B9] flex flex-col">
       <Navbar />
       <main 
-        style={{ 
-          marginTop: offsets.top,
-          marginBottom: offsets.bottom,
-          minHeight: `calc(100vh - ${offsets.top}px - ${offsets.bottom}px)`
-        }} 
-        className="flex-grow"
+        style={{ paddingTop: `${navHeight}px` }}
+        className="flex-grow flex flex-col"
       >
         {children}
       </main>

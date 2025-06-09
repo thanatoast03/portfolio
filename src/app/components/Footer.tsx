@@ -6,7 +6,7 @@ import email from "../../../public/mail.svg"
 import x from "../../../public/x-black.png"
 export default function Footer() {
   return (
-    <footer className="bg-[#B2BCA3] shadow-lg rounded-3xl fixed bottom-6 sm:bottom-14 left-1/2 -translate-x-1/2 backdrop-blur-sm p-2 sm:p-4 text-center max-w-3xl w-[95%] justify-items-center items-center z-50 hover:bottom-6 transition-all duration-300">
+    <footer className="bg-[#B2BCA3] shadow-lg rounded-3xl mx-auto mb-6 sm:mb-14 backdrop-blur-sm p-2 sm:p-4 text-center max-w-3xl w-[95%] justify-items-center items-center z-50">
       <div className="mx-auto px-6 py-1 flex justify-between items-center gap-5">
         <p className="font-crimson text-xs sm:text-xl text-[#222421] font-bold">© Jack Chin 2025</p>
         <div className="flex gap-3 sm:gap-5">
