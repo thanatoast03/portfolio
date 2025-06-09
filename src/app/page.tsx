@@ -11,7 +11,7 @@ const crimson = Crimson_Text({ subsets: ["latin"], weight: ["400", "600", "700"]
 export default function Home() {
   return (
     <main className="flex flex-grow flex-col p-8 lg:p-24 lg:pt-16 bg-[#E9C8B9]">
-      <div className="flex flex-col lg:flex-row lg:gap-10 justify-between flex-grow">
+      <div className="flex flex-col lg:flex-row xl:gap-10 justify-between flex-grow">
         <div className="flex flex-col flex-1 gap-5 lg:gap-16"> 
           {/* text */}
           <h1 className={`text-4xl lg:text-7xl lg:pt-10 lg:mr-10 font-bold drop-shadow-lg ${crimson.className}`}>Hello world! My name is Jack Chin!</h1>
