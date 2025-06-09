@@ -21,7 +21,8 @@ export const metadata: Metadata = {
       { rel: 'android-chrome-192x192', url: '/favicon/android-chrome-192x192.png' },
       { rel: 'android-chrome-512x512', url: '/favicon/android-chrome-512x512.png' },
     ]
-  }
+  },
+  manifest: "/favicon/site.webmanifest"
 };
 
 export default function RootLayout({
