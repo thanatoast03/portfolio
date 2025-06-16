@@ -22,7 +22,7 @@ export default function Home() {
             <p>Outside of computer science, I enjoy <b>mechanical keyboards</b>, <b>bass guitar</b>, <b>gaming</b>, <b>racing</b>, and <b>music</b>.</p>
           </div>
           <div className="buttons text-[#222421] flex flex-col sm:flex-row gap-4 lg:gap-4 sm:text-xl font-bold">
-            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 items-center drop-shadow-2xl hover:bg-[#FEF0EF]" onClick={() => window.open("https://docs.google.com/document/d/1FGjJ04eWc6Hjf-BcG6vhYl39Mr3ksuNm/edit?usp=sharing&ouid=100474169100505037999&rtpof=true&sd=true", "_blank")}>
+            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 items-center drop-shadow-2xl hover:bg-[#FEF0EF]" onClick={() => window.open("https://docs.google.com/document/d/1S-Ia1JUZLdVjuOtX6n6kWjHodwsE2BI_/edit?usp=sharing&ouid=100474169100505037999&rtpof=true&sd=true", "_blank")}>
               <Image src={resume} alt="Resume" width={30} height={30} className="w-6 h-6 sm:w-8 sm:h-8"/>
               <p>Download Resume</p>
             </button>
