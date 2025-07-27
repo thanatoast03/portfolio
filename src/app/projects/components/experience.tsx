@@ -16,12 +16,12 @@ interface ExperienceProps {
 }
 
 export default function ExperienceBlock({title, date, description}: ExperienceProps) {
-    const [isHidden, useIsHidden] = useState(false);
+    const [isHidden, setIsHidden] = useState(false);
     const summary = description.summary;
     const points = description.points;
     return (
         <div className={`${crimson.className} hover:scale-105 duration-75`}>
-            <div onClick={() => { useIsHidden(!isHidden)}} className={`flex flex-col sm:flex-row justify-between bg-[#222421] sm:text-xl font-semibold p-4 sm:p-6 sm:px-10 sm:mx-8 rounded-xl ${isHidden && 'rounded-b-none'} drop-shadow-xl z-30 `}>
+            <div onClick={() => { setIsHidden(!isHidden)}} className={`flex flex-col sm:flex-row justify-between bg-[#222421] sm:text-xl font-semibold p-4 sm:p-6 sm:px-10 sm:mx-8 rounded-xl ${isHidden && 'rounded-b-none'} drop-shadow-xl z-30 `}>
                 <h1>{title}</h1>
                 <h1 className="text-end">{date}</h1>
             </div>
@@ -34,8 +34,8 @@ export default function ExperienceBlock({title, date, description}: ExperiencePr
                         <br/>
                     </div>
 
-                    {points.map(point => (
-                        <li className="pl-0 sm:pl-3">{parse(point)}</li>
+                    {points.map((point, index) => (
+                        <li className="pl-0 sm:pl-3" key={`point_${index}`}>{parse(point)}</li>
                     ))}
                 </div> 
                 : 
