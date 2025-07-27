@@ -1,0 +1,93 @@
+[
+    {
+        "title": "Social Media Website - Full Stack Developer (React.js + Spring Boot + MySQL)",
+        "date": "02/2025 - 03/2025",
+        "description": {
+            "summary": "Built a <b>WebSocket-based</b> chat backend in <b>Spring Boot</b>, enabling real-time messaging with <b>MySQL</b> message persistence. Used <b>React.js</b> frontend and <b>Spring Boot</b> backend.",
+            "points": [
+                "Implemented <b>JWT</b> authentication, <b>Spring Security</b>, and <b>CAPTCHA v3</b> for secure and bot-resistant user access", 
+                "Developed a WebSocket-based chatroom; managed <b>MySQL</b> schemas for user and message data",
+                "Deployed using <b>Docker</b>, <b>Nginx</b> (reverse proxy) for HTTPS and WSS, and hosted on <b>DigitalOcean</b> droplet",
+                "<a href='https://aaaa418.com/'><u>Link</u></a>",
+                "<a href='https://github.com/thanatoast03/AAAA.com'><u>GitHub</u></a>"
+            ]
+        }
+    },
+    {
+        "title": "Nimi Fan Website - Full Stack Developer (React.js + FastAPI)",
+        "date": "01/2025 - 01/2025",
+        "description": {
+            "summary": "Solo dynamic fan site using <b>FastAPI</b> backend and <b>React.js + TailwindCSS</b> frontend.",
+            "points": [
+                "Implements periodic YouTube stream monitoring via <b>web scraping</b> (1-minute interval)",
+                "Designed, implemented, and deployed in <b>a day.</b>",
+                "Designed for a single <b>YouTube</b> account but can apply to any.",
+                "Same hosting configuration as Fauna Fan Website; <b>Fly.io</b> backend, <b>Vercel</b> frontend.",
+                "<a href='https://wheres-nimi.vercel.app/'><u>Link</u></a>",
+                "<a href='https://github.com/thanatoast03/wheres-nimi'><u>GitHub</u></a>"
+            ]
+        }
+    },
+    {
+        "title": "Fauna Fan Website - Full Stack Developer (React.js + Flask)",
+        "date": "11/2024 - 1/2025",
+        "description": {
+            "summary": "Solo responsive fan site built with <b>Flask</b> backend and <b>React.js + TailwindCSS</b> frontend.",
+            "points": [
+                "Integrated <b>WebSockets</b> with <b>Redis</b> for real-time counter updates",
+                "Integrated <b>Gmail API</b> from <b>Google Workspace</b> for suggestions and posts to send to email",
+                "Deployed frontend on <b>Vercel</b> and backend on <b>Fly.io</b>",
+                "<a href='https://fauna-fun-sites.vercel.app/'><u>Link</u></a>",
+                "<a href='https://github.com/thanatoast03/fauna-lmsh-timer'><u>GitHub</u></a>"
+            ]
+        }
+    },
+    {
+        "title": "Phishing Classifier - Python Artificial Intelligence",
+        "date": "10/2024 - 12/2024",
+        "description": {
+            "summary": "Used <b>PySpark</b>, <b>NumPy</b>, <b>Pandas</b>, <b>Matplotlib</b>, and <b>Seaborn</b> to clean data, then found the most effective algorithm using performance metrics such as accuracy, precision, recall, and F1 score.",
+            "points": [
+                "Our best algorithm reached over 95% on all metrics, with an accuracy of 95.9%, a precision score of 96.2%, a recall score of 95.4%, and an F1 score of 95.8%."
+            ]
+        }
+    },
+    {
+        "title": "Receipt Scanning Website - Full Stack Developer (React.js + PHP + MySQL)",
+        "date": "09/2024 - 12/2024",
+        "description": {
+            "summary": "Collaborated with a team to build a secure web app for uploading, parsing, and sharing receipt data. Integrated a <b>RESTful PHP</b> backend with a <b>React</b> frontend, enabling secure receipt upload, user login, and cost-splitting.",
+            "points": [
+                "Designed and integrated a <b>SQL</b> database with a <b>PHP</b> backend for structured receipt and user data",
+                "Connected backend to a <b>React.js</b> frontend and implemented <b>authentication</b> and security features",
+                "Enabled manual <b>cost-splitting</b>, allowing users to assign receipt items to specific individuals for <b>expense tracking</b>"
+            ]
+        }
+    },
+    {
+        "title": "Calculator Project - Tkinter",
+        "date": "07/2023 - 07/2023",
+        "description": {
+            "summary": "Programmed a calculator in Python. Used <b>Tkinter</b> for the GUI.",
+            "points": [
+                "<a href='https://github.com/herrenmora1/calculator-project'><u>GitHub</u></a>"
+            ]
+        }
+    },
+    {
+        "title": "Xerox Internship Project - Full Stack Developer (Angular + Spring Boot + MongoDB)",
+        "date": "06/2022 - 08/2022",
+        "description": {
+            "summary": "Developed a modernized version of a legacy release tool while encountering Agile methodologies for the first time.",
+            "points": [
+                "Learned how to use the mongo shell and Atlas (GUI) to search for documents. Also learned how to use projections and sorting to get desired results faster",
+                "Learned how to build using Gradle",
+                "Learned how to utilize GitBucket in a professional setting",
+                "Learned about Data Transfer Objects (DTOs) and different layering for repositories, services, and controllers",
+                "Learned how to utilize Postman to send POST and GET requests while debugging between server and client-side",
+                "Learned how to control MongoDB using Spring Boot's integration",
+                "Learned how to integrate information from JIRA server with data from the database"
+            ]
+        }
+    }
+]
