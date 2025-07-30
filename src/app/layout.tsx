@@ -6,8 +6,8 @@ import ClientLayout from "./ClientLayout";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Jack Chin",
-  description: "Jack Chin's Portfolio",
+  title: "Jack Chin's Portfolio",
+  description: "Welcome to my portfolio!",
   icons: {
     icon: [
       { url: '/favicon/favicon.ico', sizes: '48x48', type: 'image/x-icon' },
@@ -21,6 +21,9 @@ export const metadata: Metadata = {
       { rel: 'android-chrome-192x192', url: '/favicon/android-chrome-192x192.png' },
       { rel: 'android-chrome-512x512', url: '/favicon/android-chrome-512x512.png' },
     ]
+  },
+  openGraph: {
+    images: "/jack-chin.jpg"
   },
   keywords: "portfolio,profile,resume",
   manifest: "/favicon/site.webmanifest"
