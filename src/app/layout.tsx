@@ -22,6 +22,7 @@ export const metadata: Metadata = {
       { rel: 'android-chrome-512x512', url: '/favicon/android-chrome-512x512.png' },
     ]
   },
+  keywords: "portfolio,profile,resume",
   manifest: "/favicon/site.webmanifest"
 };
 

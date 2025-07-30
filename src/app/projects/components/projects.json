@@ -43,8 +43,21 @@
         }
     },
     {
-        "title": "Phishing Classifier - Python Artificial Intelligence",
+        "title": "AI-Powered Class Recommender - Full Stack Developer (React.js + Flask + MongoDB + Gemini)",
         "date": "10/2024 - 12/2024",
+        "description": {
+            "summary": "Developed an <b>AI-powered</b> course recommendation platform for University at Buffalo engineering/CS students, using a <b>Google Gemini chatbot</b> to suggest classes based on prior coursework, student year, and prerequisite logic.",
+            "points": [
+                "Built a <b>Python web scraper</b> to extract and format course data and prerequisites from UB’s catalog into <b>structured .txt files</b> by major and program.",
+                "Engineered a <b>full-stack</b> web application with a <b>React.js</b> frontend, <b>Flask</b> backend, and <b>MongoDB</b> database to store user chat history and support session-based recommendations.",
+                "Containerized the app using <b>Docker</b> for local deployment and testing.",
+                "<a href='https://github.com/thanatoast03/CSE368-Project'><u>GitHub</u></a>"
+            ]
+        }
+    },
+    {
+        "title": "Phishing Classifier - Python Artificial Intelligence",
+        "date": "09/2024 - 12/2024",
         "description": {
             "summary": "Used <b>PySpark</b>, <b>NumPy</b>, <b>Pandas</b>, <b>Matplotlib</b>, and <b>Seaborn</b> to clean data, then found the most effective algorithm using performance metrics such as accuracy, precision, recall, and F1 score.",
             "points": [
@@ -61,6 +74,20 @@
                 "Designed and integrated a <b>SQL</b> database with a <b>PHP</b> backend for structured receipt and user data",
                 "Connected backend to a <b>React.js</b> frontend and implemented <b>authentication</b> and security features",
                 "Enabled manual <b>cost-splitting</b>, allowing users to assign receipt items to specific individuals for <b>expense tracking</b>"
+            ]
+        }
+    },
+    {
+        "title": "Social Media Website - Full Stack Developer (JavaScript + HTML + Python + MongoDB)",
+        "date": "01/2024 - 05/2024",
+        "description": {
+            "summary": "Developed a <b>full-stack social media</b> web application with <b>real-time features</b>, including a <b>global chatroom</b>, <b>private messaging</b> system with persistent state, and peer-to-peer <b>video calls</b>.",
+            "points": [
+                "Implemented <b>peer-to-peer</b> video calling using <b>WebRTC</b> with ICE negotiation for <b>end-to-end</b> connections",
+                "Implemented <b>authentication</b> and <b>Spotify OAuth 2.0</b> integration, enabling <b>music-based chat commands</b> to display users’ currently playing songs",
+                "Enabled rich media support, allowing users to share and view images, GIFs, and videos through <b>FFmpeg-based</b> processing",
+                "Built the backend with <b>Flask</b> and <b>MongoDB</b>, and designed secure deployment using <b>Docker</b>, <b>Nginx</b>, and <b>HTTPS</b>",
+                "Handled all development and infrastructure as a solo developer, using <b>JavaScript</b>, <b>HTML</b>, <b>Python</b>, and <b>WebSockets</b> for seamless real-time communication"
             ]
         }
     },

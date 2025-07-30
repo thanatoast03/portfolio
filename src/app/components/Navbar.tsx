@@ -66,7 +66,7 @@ export default function Navbar() {
         >
           <hr className="border-t-2 border-[#222421] w-full" />
           <Link className="flex self-end" href="/">Home</Link>
-          <Link className="flex self-end" href="/about">About</Link>
+          <Link className="flex self-end" href="/projects">Projects</Link>
           <a className="flex self-end cursor-pointer" onClick={() => window.open("mailto:jack.chin520@gmail.com", "_blank")}>Contact</a>
         </div>
       )}
