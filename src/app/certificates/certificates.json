@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Kaggle - Intro to Machine Learning",
+        "date": "July 26, 2025",
+        "description": {
+            "summary": "Gained hands-on experience with supervised learning, model evaluation, feature engineering, and scikit-learn tools to build and improve predictive models.",
+            "points": [
+                "<a href='https://www.kaggle.com/learn/certification/brainkoko/intro-to-machine-learning'><u>Link</u></a>"
+            ]
+        }
+    },
+    {
+        "title": "Kaggle - Data Visualization",
+        "date": "July 15, 2025",
+        "description": {
+            "summary": "Gained hands-on experience visualizing data with Seaborn, including bar plots, histograms, box plots, heatmaps, and scatter plots; applied best practices for exploring distributions, relationships, and categorical data in Python.",
+            "points": [
+                "<a href='https://www.kaggle.com/learn/certification/brainkoko/data-visualization'><u>Link</u></a>"
+            ]
+        }
+    },
+    {
+        "title": "Kaggle - Pandas",
+        "date": "July 13, 2025",
+        "description": {
+            "summary": "Demonstrated proficiency in data analysis using the pandas library in Python, including DataFrame manipulation, data cleaning, aggregation, merging, and time series analysis.",
+            "points": [
+                "<a href='https://www.kaggle.com/learn/certification/brainkoko/pandas'><u>Link</u></a>"
+            ]
+        }
+    }
+]

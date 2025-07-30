@@ -38,12 +38,13 @@ export default function Navbar() {
   return (
     <nav className="bg-white text-[#516C65] text-2xl font-bold shadow-md drop-shadow-xl fixed w-full z-50">
       <div className="mx-auto px-6 sm:px-10 py-3 sm:py-4 flex justify-between items-center">
-        <Link href="/">Jack Chin</Link>
+        <Link href="/" className='transition duration-150 hover:scale-110'>Jack Chin</Link>
 
         <div className="hidden md:flex gap-x-12">
-          <Link href="/">Home</Link>
-          <Link href="/projects">Projects</Link>
-          <a className="cursor-pointer" onClick={() => window.open("mailto:jack.chin520@gmail.com", "_blank")}>Contact Me</a>
+          <Link href="/" className='transition duration-150 hover:scale-110'>Home</Link>
+          <Link href="/projects" className='transition duration-150 hover:scale-110'>Projects</Link>
+          <Link href="/certificates" className='transition duration-150 hover:scale-110'>Certificates</Link>
+          <a className="cursor-pointer transition duration-150 hover:scale-110" onClick={() => window.open("mailto:jack.chin520@gmail.com", "_blank")}>Contact Me</a>
         </div>
 
         <button
@@ -65,8 +66,9 @@ export default function Navbar() {
           className="md:hidden px-6 pb-4 flex flex-col gap-2 absolute w-full bg-white z-50 rounded-b-xl"
         >
           <hr className="border-t-2 border-[#222421] w-full" />
-          <Link className="flex self-end" href="/">Home</Link>
-          <Link className="flex self-end" href="/projects">Projects</Link>
+          <Link onClick={handleClick} className="flex self-end" href="/">Home</Link>
+          <Link onClick={handleClick} className="flex self-end" href="/projects">Projects</Link>
+          <Link onClick={handleClick} className='flex self-end' href="/certificates">Certificates</Link>
           <a className="flex self-end cursor-pointer" onClick={() => window.open("mailto:jack.chin520@gmail.com", "_blank")}>Contact</a>
         </div>
       )}

@@ -21,7 +21,7 @@ export default function ExperienceBlock({title, date, description}: ExperiencePr
     const points = description.points;
 
     return (
-        <div className={`${crimson.className} hover:scale-105 duration-75`}>
+        <div className={`${crimson.className} hover:scale-105 duration-150`}>
             <div onClick={() => { setIsHidden(!isHidden)}} className={`flex flex-col sm:flex-row justify-between bg-[#222421] sm:text-xl font-semibold p-4 sm:p-6 sm:px-10 sm:mx-8 rounded-xl ${isHidden && 'rounded-b-none'} drop-shadow-xl z-30 `}>
                 <h1>{title}</h1>
                 <h1 className="text-end">{date}</h1>
