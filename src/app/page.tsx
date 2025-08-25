@@ -27,7 +27,7 @@ export default function Home() {
             <p>Outside of computer science, I enjoy <b>mechanical keyboards</b>, <b>bass guitar</b>, <b>gaming</b>, <b>racing</b>, and <b>music</b>.</p>
           </div>
           <div className="buttons text-[#222421] flex flex-col sm:flex-row gap-4 lg:gap-4 sm:text-xl font-bold">
-            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 items-center drop-shadow-2xl hover:bg-[#A3ADA2] transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" onClick={() => window.open("https://docs.google.com/document/d/1S-Ia1JUZLdVjuOtX6n6kWjHodwsE2BI_/edit?usp=sharing&ouid=100474169100505037999&rtpof=true&sd=true", "_blank")}>
+            <button className="bg-[#B2BCA3] px-6 py-3 rounded-xl border-2 border-black flex flex-row gap-4 items-center drop-shadow-2xl hover:bg-[#A3ADA2] transition delay-50 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110" onClick={() => window.open("https://docs.google.com/document/d/1xH0O2y62vi2m2k4Tux9nTIVEvZTTLb6f/edit?usp=sharing&ouid=100474169100505037999&rtpof=true&sd=true", "_blank")}>
               <Image src={resume} alt="Resume" width={30} height={30} className="w-6 h-6 sm:w-8 sm:h-8"/>
               <p>Download Resume</p>
             </button>
