@@ -1,5 +1,19 @@
 [
     {
+        "title": "freeCodeCamp - Back End Development and APIs",
+        "date": "August 17, 2025",
+        "description": {
+            "summary": "Completed a curriculum focused on backend development with Node.js, Express, and MongoDB, emphasizing REST-style APIs and microservices. Gained experience with server-side logic, middleware, and data persistence using Mongoose. Applied skills by building and deploying multiple backend projects.",
+            "points": [
+                "<a href='https://www.freecodecamp.org/certification/brainkoko/back-end-development-and-apis'><u>Link</u></a>",
+                "Learned Node.js fundamentals, npm workflows, and Express routing/middleware",
+                "Designed and documented RESTful APIs and JSON microservices",
+                "Implemented CRUD operations and schema modeling with MongoDB/Mongoose",
+                "Completed five backend projects: Timestamp Microservice, Request Header Parser, URL Shortener, Exercise Tracker, and File Metadata Microservice"
+            ]
+        }
+    },
+    {
         "title": "Kaggle - Intro to Machine Learning",
         "date": "July 26, 2025",
         "description": {
