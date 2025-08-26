@@ -42,5 +42,21 @@
                 "<a href='https://www.kaggle.com/learn/certification/brainkoko/pandas'><u>Link</u></a>"
             ]
         }
+    },
+    {
+        "title": "MongoDB - M001 MongoDB Basics",
+        "date": "June 20, 2022",
+        "description": {
+            "summary": "Learned core concepts of NoSQL databases and MongoDB's document-oriented model.",
+            "points": [
+                "<a href='https://university.mongodb.com/course_completion/648910000000000000000000'><u>Link</u></a>",
+                "Performed CRUD operations (Create, Read, Update, Delete) using the MongoDB Shell and Compass",
+                "Learned schema design principles for flexible, scalable data models",
+                "Queried data using advanced filter conditions, projections, and sorting",
+                "Utilized indexes to improve performance and analyzed explain plans",
+                "Connected to MongoDB Atlas clusters and configured cloud-based deployments",
+                "Explored aggregation pipelines for data transformation and computation"
+            ]
+        }
     }
 ]
